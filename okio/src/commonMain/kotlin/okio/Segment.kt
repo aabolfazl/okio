@@ -176,7 +176,7 @@ internal class Segment {
 
   companion object {
     /** The size of all segments in bytes.  */
-    const val SIZE = 8192
+    const val SIZE = 8192/4
 
     /** Segments will be shared when doing so avoids `arraycopy()` of this many bytes.  */
     const val SHARE_MINIMUM = 1024
